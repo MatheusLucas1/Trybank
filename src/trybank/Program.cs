@@ -9,6 +9,7 @@ class Program
     {
         TrybankLib bank = new();
 
+
         try
         {
             // Registrando uma nova conta
