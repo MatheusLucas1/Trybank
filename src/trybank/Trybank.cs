@@ -35,12 +35,12 @@ public class TrybankLib
                 {
                     throw new ArgumentException("A conta já está sendo usada!");
                 }
-                Bank[registeredAccounts, 0] = number;
-                Bank[registeredAccounts, 1] = agency;
-                Bank[registeredAccounts, 2] = pass;
-                Bank[registeredAccounts, 3] = 0;
-                registeredAccounts++;
             }
+            Bank[registeredAccounts, 0] = number;
+            Bank[registeredAccounts, 1] = agency;
+            Bank[registeredAccounts, 2] = pass;
+            Bank[registeredAccounts, 3] = 0;
+            registeredAccounts++;
 
         }
 
